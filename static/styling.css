@@ -1,0 +1,42 @@
+body {
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: orange;
+    font-family: Monaco;
+    font-size: 120%;
+}
+
+h1 {
+    font-family: Arial;
+    color: blue;
+    text-align: center;
+}
+
+input {
+    font-family: Monaco;
+    background-color: black;
+    color: white;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    font-size: 130%;
+    font-weight: bolder;
+    font-family: Monaco;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    transform: rotate(-30deg);
+}
+
+img:hover {
+    filter: brightness(300%);
+    transform: rotate(-30deg);
+}
+
+img {
+    width: 600px;
+}
